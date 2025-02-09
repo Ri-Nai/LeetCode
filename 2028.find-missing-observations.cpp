@@ -1,3 +1,10 @@
+// @lcpr-before-debug-begin
+
+
+
+
+// @lcpr-before-debug-end
+
 /*
  * @lc app=leetcode.cn id=2028 lang=cpp
  * @lcpr version=30202
@@ -45,6 +52,13 @@ public:
     }
 };
 // @lc code=end
+
+
+// @lcpr-div-debug-arg-start
+// funName=missingRolls
+// paramTypes= ["number[]","number","number"]
+// @lcpr-div-debug-arg-end
+
 
 
 

@@ -1,8 +1,8 @@
 /*
- * @lc app=leetcode.cn id=1 lang=cpp
- * @lcpr version=30122
+ * @lc app=leetcode.cn id=9 lang=cpp
+ * @lcpr version=30204
  *
- * [1] 两数之和
+ * [9] 回文数
  */
 
 
@@ -23,12 +23,16 @@ using namespace std;
 #include <unordered_set>
 #include <utility>
 #include <vector>
+#include <string>
 // @lcpr-template-end
 // @lc code=start
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-
+    bool isPalindrome(int x) {
+        string s = to_string(x);
+        string s2 = s;
+        reverse(s2.begin(), s2.end());
+        return s == s2;
     }
 };
 // @lc code=end
@@ -37,15 +41,15 @@ public:
 
 /*
 // @lcpr case=start
-// [2,7,11,15]\n9\n
+// 121\n
 // @lcpr case=end
 
 // @lcpr case=start
-// [3,2,4]\n6\n
+// -121\n
 // @lcpr case=end
 
 // @lcpr case=start
-// [3,3]\n6\n
+// 10\n
 // @lcpr case=end
 
  */

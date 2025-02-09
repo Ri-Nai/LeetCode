@@ -42,6 +42,13 @@ public:
 // @lc code=end
 
 
+// @lcpr-div-debug-arg-start
+// funName=dfs114514
+// paramTypes= ["string"]
+// @lcpr-div-debug-arg-end
+
+
+
 
 /*
 // @lcpr case=start
